@@ -1,0 +1,3 @@
+[submodule "libs/tiltyard"]
+	path = libs/tiltyard
+	url = git@github.com:The-Assembly-Knight/tilt-yard.git

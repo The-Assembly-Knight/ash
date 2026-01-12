@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#include "../include/prompt.h"
+#include "../../include/shell/prompt.h"
 
 static char *prompt = "ash.v0 $ ";
 

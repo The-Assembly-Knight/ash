@@ -4,8 +4,13 @@ CFLAGS = -Wall -Wextra -Wpedantic -Wconversion -Werror -g
 
 # Source and object files
 SRC = main.c \
-      src/prompt.c \
-      src/shell.c
+      src/helpers/handle_error.c \
+      src/shell/prompt.c \
+      src/shell/shell.c \
+      src/tokenizer/tokenizer.c \
+      src/tokenizer/byte_type.c \
+      libs/tiltyard/src/tiltyard_API.c \
+      libs/tiltyard/src/tiltyard_Error.c
 
 OBJ = $(SRC:.c=.o)
 TARGET = ash
